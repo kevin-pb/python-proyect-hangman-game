@@ -42,3 +42,5 @@ while list_syllables_quantity_random_word != list_syllables_random_word:
 
 if list_syllables_quantity_random_word == list_syllables_random_word:
     print(f"You win, the word is {convert_list_to_str(list_syllables_quantity_random_word)}!!!!!!")
+    
+# Define a new software designed to accomplish with non-functional requirements 

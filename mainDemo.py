@@ -1,16 +1,16 @@
-# Importing modules-----------------
+import random
 from libs.checkingModule import checking_concordances as ch_c
 from libs.convertListToStrModule import convert_list_to_str as l_to_s
-from libs.randomWordSelectorModule import random_word_selector as r_word_selector
-from libs.wordSyllablesQuantityModule import wordSyllablesQuantity
-# Importing modules-----------------
 
-random_word = r_word_selector(["apple","hello","fire","determination","one","definition","nothing","existence","two"])
+word_list = ["apple","hello","fire","determination","one","definition","nothing","existence","two"]
+random_word = random.choice(word_list)
+
 list_syllables_random_word = list(random_word)
+
 list_syllables_quantity_random_word = []
-
-wordSyllablesQuantity(list_syllables_random_word, list_syllables_quantity_random_word)
-
+for i in list_syllables_random_word:
+    list_syllables_quantity_random_word.append("_")
+    
 print("===The Hangman Game==")
 attemps = 3
 while list_syllables_quantity_random_word != list_syllables_random_word:
@@ -29,3 +29,5 @@ while list_syllables_quantity_random_word != list_syllables_random_word:
 
 if list_syllables_quantity_random_word == list_syllables_random_word:
     print(f"You win, the word is {l_to_s(list_syllables_quantity_random_word)}!!!!!!")
+    
+

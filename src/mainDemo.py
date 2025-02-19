@@ -1,6 +1,7 @@
 import random
-from libs.checkingModule import checking_concordances as ch_c
-from libs.convertListToStrModule import convert_list_to_str as l_to_s
+from libs.workWithWords import checking_concordances as ch_c
+from libs.workWithWords import convert_list_to_str as l_to_s
+
 
 word_list = ["apple","hello","fire","determination","one","definition","nothing","existence","two"]
 random_word = random.choice(word_list)

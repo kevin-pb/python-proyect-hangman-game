@@ -39,9 +39,9 @@ Random module for word selection.
 
 ### Best Practices
 
-Use clear displays: Make the game state easy to understand for the user.
-Validate inputs: Ensure the user enters valid guesses (letters only).
-Encourage code reuse: Use functions to handle repetitive tasks like updating the display.
+- Use clear displays: Make the game state easy to understand for the user.
+- Validate inputs: Ensure the user enters valid guesses (letters only).
+- Encourage code reuse: Use functions to handle repetitive tasks like updating the display.
 
 
 https://www.youtube.com/watch?v=VDBhk5-erp0

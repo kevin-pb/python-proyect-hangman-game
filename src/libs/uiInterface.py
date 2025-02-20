@@ -38,3 +38,6 @@ def uiInterface(word, list_syllables, empty_list, cuonter = 3):
 
         elif option == 4:
             break
+        
+        else:
+            print("Incorrect opton")

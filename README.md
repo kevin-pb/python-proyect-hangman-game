@@ -1,8 +1,6 @@
-# python-proyect-hangman-game
+# Hangman Game
 
-## Hangman Game
-
-### Description
+## Description
 
 Create a hangman game where the user guesses letters to form a hidden word.
 
@@ -43,6 +41,34 @@ Random module for word selection.
 - Validate inputs: Ensure the user enters valid guesses (letters only).
 - Encourage code reuse: Use functions to handle repetitive tasks like updating the display.
 
+## Project
+
+The project replie the clasic hangman game, choose a random word from those in its database, and also allows more words to be added.
+
+![Example](./rsc/Captura3.JPG)
+
+**Play:**
+
+The play option allows play with the default words.
+
+![Example](./rsc/Captura2.JPG)
+
+**Agregate a word to the options:**
+
+Allows you to add an extra word to the list of possible words (added words are kept even after the program is closed).
+
+![Example](./rsc/Captura1.JPG)
+
+**See the options:**
+This option print all the options of word.
+
+![Example](./rsc/Captura4.JPG)
+
+**Exit**
+
+The exit option close the program.
+
+![Example](./rsc/Captura5.JPG)
 
 https://www.youtube.com/watch?v=VDBhk5-erp0
 https://www.youtube.com/watch?v=4d_fquQ9V2M

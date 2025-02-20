@@ -11,7 +11,11 @@ def uiInterface(word, list_syllables, empty_list, cuonter = 3):
     print("3-See the options")
     print("4-Exit")  
     while True is True:
-        option = int(input("Introduce the number of one option: "))
+        try:
+            option = int(input("Introduce the number of one option: "))
+        except ValueError:
+            print("Incorrect opton")
+            
         if option == 1:
             while empty_list != list_syllables:
                 print(f"You have {cuonter} attemps")

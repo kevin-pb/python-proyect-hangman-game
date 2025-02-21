@@ -72,6 +72,7 @@ The exit option close the program.
 
 ## Architecture
 
+The project is divided into three folders: src (source code), db (database), and rsc (resources). In src, you will find the main file and the libs folder, which contains a series of modules. The "dbOperations" module includes several functions for working with databases. The "uiInterface" module contains a function responsible for all visual tasks. The "workWithWords" module processes all the input data; it provides the graphical interface with the number of syllables in the selected word from the database, checks whether the letter you entered is in the word, and, if so, indicates its position, etc.
 
 
 https://www.youtube.com/watch?v=VDBhk5-erp0

@@ -72,8 +72,29 @@ The exit option close the program.
 
 ## Architecture
 
-The project is divided into three folders: src (source code), db (database), and rsc (resources). In src, you will find the main file and the libs folder, which contains a series of modules. The "dbOperations" module includes several functions for working with databases. The "uiInterface" module contains a function responsible for all visual tasks. The "workWithWords" module processes all the input data; it provides the graphical interface with the number of syllables in the selected word from the database, checks whether the letter you entered is in the word, and, if so, indicates its position, etc.
+The project is divided into three folders: src (source code), db (database), and rsc (resources). In src, you will find the main file and the libs folder, which contains a series of modules. The "dbOperations" module includes several functions for working with databases. The "uiInterface" module contains a function responsible for all visual tasks. The "workWithWords" module processes all data inputs; it provides the graphical interface with the number of syllables in the selected word from the database, checks whether the letter you entered is in the word, and, if so, indicates its position, etc. In the db folder, there is the "options" file, which has the function of saving all the word options from which the game can choose; these can be modified. In the rsc folder, there are a couple of images that I have used in the readme.
 
+## Run & Configure
 
-https://www.youtube.com/watch?v=VDBhk5-erp0
-https://www.youtube.com/watch?v=4d_fquQ9V2M
+### Requirements
+
+pandas library
+
+### Installation
+
+### Clone the repository:
+
+git clone https://github.com/kevin-pb/python-proyect-hangman-game.git
+
+### Install dependencies:
+
+pip install pandas
+
+### Run
+
+python main.py
+
+## References
+
+![Curso UML - Sesión 05 (Boundary, Control y Entidad)](https://www.youtube.com/watch?v=VDBhk5-erp0)
+![RUP UML - Tipos de clases : Interfaz , Entidad y Control](https://www.youtube.com/watch?v=4d_fquQ9V2M)
